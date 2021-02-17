@@ -22,7 +22,8 @@
 	}
 	
 	&__menu-burger {
-		display: block;
+		display: flex;
+		justify-content: center;
 		cursor: pointer;
 		position: relative;
 		z-index: 4;
