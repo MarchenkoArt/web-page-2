@@ -41,7 +41,7 @@
 	&__menu-burger:before, &__menu-burger:after {
 		content: '';
 		height: 3px;
-	   	width: 53px;
+	   	width: 100%;
 	    position: absolute;
 	    background: $color-white;
 	    @include transition-05;
