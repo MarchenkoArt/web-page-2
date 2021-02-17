@@ -1,0 +1,431 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 992px) {
+
+	.header { 
+		&__body {
+			margin-right: 30px;
+		}
+
+		&__title {	
+			font-size: 180px;
+		}
+
+		&__subtitle {
+			font-size: 36px;
+		}
+
+		&__dots {
+			span{
+				height: 11px;
+				width: 11px;
+			}
+		}
+
+		&__navigation {
+			padding-top: 15%;
+
+			a, a:visited, a:active{
+				font-size: 36px;
+				line-height: 65px;
+			}
+		}
+	}
+
+	.second-block {
+		&__subtitle {
+			font-size: 56px;
+		}
+		&__title {
+			font-size: 56px;
+		}
+		&__text-medium {
+			font-size: 18px;
+		}
+		&__text-normal {
+			font-size: 18px;
+			padding-bottom: 70px;
+		}
+	}
+
+	.third-block {
+		&__body {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 2fr;
+		}
+
+		&__info {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+		}
+
+		&__image {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+	}
+
+	.underlined-title {
+		font-size: 56px;
+	}
+
+	.fourth-block {
+		&__grid {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat (4, 1fr );
+		}
+
+		&__feedback {
+			&_1 {
+				grid-column: 1 / 2;
+				grid-row: 1 / 2;
+			}
+
+			&_2 {
+				grid-column: 1 / 2;
+				grid-row: 2 / 3;
+			}
+
+			&_3 {
+				grid-column: 1 / 2;
+				grid-row: 3 / 4;
+			}
+
+			&_4 {
+				grid-column: 1 / 2;
+				grid-row: 5 / 6;
+			}
+		}
+	}
+
+	.banner {
+		&__text{
+			font-size: 36px;
+		}
+	}
+
+	.buy-poster {
+
+		&__grid {
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-gap: 20px;
+		}
+
+		&__grid-item {
+			&_1 {}
+
+			&_2 {
+				display: none;
+			}
+
+			&_3 {
+				grid-column: 2 / 3;
+				grid-row: 1 / 2;
+			}
+
+			&_4 {
+				grid-column: 2 / 3;
+				grid-row: 2 / 3;
+			}
+		}
+	}
+
+	.info {
+		&__body {
+			grid-gap: 20px;
+			padding: 35px 40px;
+			grid-template-columns: repeat (2, 1fr);
+			grid-template-rows: repeat (2, 1fr);
+
+		}
+
+		&__title {
+			padding-bottom: 15px;
+		}
+
+		&__browse {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+		&__shop {
+			grid-column: 2 / 3;
+			grid-row: 1 / 2;
+		}
+		&__contact {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+		}
+		&__subscribe {
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
+		}
+	}
+
+	.footer {
+		&__copyright {
+			font-size: 10px;
+		}
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 767px) {
+	.header { 
+
+		&__logo {
+			width: 30%;
+			height: auto;
+		}
+
+		&__head {
+			margin: 0px 20px;
+		}
+		&__body {
+			margin-right: 15px;
+		}
+
+		&__title {	
+			font-size: 100px;
+		}
+
+		&__subtitle {
+			font-size: 21px;
+		}
+
+		&__dots {
+			span{
+				height: 11px;
+				width: 11px;
+			}
+		}
+
+		&__navigation {
+			padding-top: 20%;
+			padding-left: 7%;
+
+			a, a:visited, a:active{
+				font-size: 28px;
+				line-height: 65px;
+			}
+		}
+	}
+
+	.second-block {
+		&__subtitle {
+			font-size: 36px;
+		}
+		&__title {
+			font-size: 36px;
+		}
+		&__text-medium {
+			font-size: 16px;
+		}
+
+		&__text-medium:after{
+			left: 40%;
+		}
+
+		&__text-normal {
+			font-size: 16px;
+			padding-bottom: 70px;
+		}
+	}
+
+	.third-block {
+		&__body {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 2fr;
+		}
+
+		&__info {
+			font-size: 24px;
+			line-height: 24px;
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+			padding: 30px 30px 50px 30px;
+		}
+
+		&__name {
+
+		}
+
+		&__image {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+	}
+
+	.underlined-title {
+		font-size: 36px;
+	}
+
+	.fourth-block {
+		&__body {
+			padding: 30px 25px;
+		}
+		&__grid {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat (4, 1fr );
+		}
+	}
+
+	.banner {
+		&__text{
+			font-size: 24px;
+			padding: 0 10px;
+		}
+	}
+
+	.buy-poster {
+
+		&__body {
+			padding: 30px 25px;
+		}
+
+		&__grid {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto;
+			grid-gap: 10px;
+			height: 250vh;
+		}
+
+		&__grid-item {
+			&_1 {
+				grid-column: 1 / 2;
+				grid-row: 1 / 2;
+			}
+
+			&_2 {
+				display: none;
+			}
+
+			&_3 {
+				grid-column: 1 / 2;
+				grid-row: 2 / 3;
+			}
+
+			&_4 {
+				grid-column: 1 / 2;
+				grid-row: 3 / 4;
+			}
+		}
+	}
+
+	.info {
+		&__body {
+			grid-gap: 20px;
+			padding: 35px 20px;
+			grid-template-columns: 1fr;
+			grid-template-rows: auto;
+		}
+
+		&__title {
+			padding-bottom: 15px;
+			text-align: center;
+		}
+
+		&__browse {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+		&__shop {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+		}
+		&__contact {
+			grid-column: 1 / 2;
+			grid-row: 3 / 4;
+		}
+		&__subscribe {
+			grid-column: 1 / 2;
+			grid-row: 5 / 6;
+		}
+
+		&__button{
+			align-self: center;
+		}
+	}
+
+	.footer {
+		&__screen {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr;
+		}
+		&__icon-bar {
+			grid-column: 1 / 2;
+			grid-row: 1 / 2;
+		}
+		&__copyright {
+			grid-row: 2 / 3;
+			grid-column: 1 / 2;
+			font-size: 10px;
+		}
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+	.button {
+		font-size: 14px;
+		padding: 12px 15px;
+	}
+
+	.header { 
+
+		&__logo {
+			width: 30%;
+			height: auto;
+		}
+
+		&__title {	
+			font-size: 80px;
+		}
+
+		&__subtitle {
+			font-size: 16px;
+		}
+
+		&__navigation {
+			padding-top: 20%;
+			padding-left: 7%;
+
+			a, a:visited, a:active{
+				font-size: 26px;
+				line-height: 55px;
+			}
+		}
+	}
+
+	.underlined-title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.underlined-title:after{
+		bottom: 0px;
+		left: 0;
+	}
+
+	.buy-poster {
+		&__title {
+			margin-bottom: 45px;
+		}
+	}
+
+	.banner {
+		&__quote {
+			font-size: 18px;
+		}
+	}
+}

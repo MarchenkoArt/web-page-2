@@ -1,0 +1,33 @@
+.banner {
+
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	display: grid;
+
+	&__body {
+		max-width: 900px;
+		font-family: Raleway;
+		color: $color-white;
+		text-align: center;
+		margin: 0 auto;
+		align-self: center;
+	}
+	&__text {
+		font-size: 60px;
+		line-height: 1.2;
+		font-weight: 700;
+		margin-bottom: 38px;
+	}
+	&__quote {
+		font-size: 20px;
+		font-weight: 400;
+		margin-top: 38px;
+
+		a, a:visited, a:active {
+			border-bottom: 1px solid $color-white;
+			color: $color-white;
+		}
+	}
+}

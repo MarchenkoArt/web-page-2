@@ -1,0 +1,52 @@
+.second-block {
+
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+
+	&__body {
+		max-width: 1000px;
+		text-align: center;
+		font-family: Raleway;
+		padding-top: 87px;
+	}
+	&__subtitle {
+		font-size: 60px;
+		line-height: 1.2;
+		font-weight: 200;
+		color: $color-black;
+	}
+	&__title {
+		font-size: 60px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: $color-black;
+		padding-bottom: 18.5px;
+	}
+	&__text-medium {
+		position: relative;
+		font-size: 20px;
+		line-height: 1.2;
+		font-weight: 600;
+		color: $color-black;
+		padding: 18.5px 20px 53.5px 20px;
+	}
+
+	&__text-medium:after{
+		position: absolute;
+		content: '';
+		top: 100%;
+		left: 46%;
+		width: 80px;
+		height: 2px;
+		background-color: $color-black;
+	}
+
+	&__text-normal {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+		color: $color-black;
+		padding: 53.5px 20px 100px 20px;
+	}
+}

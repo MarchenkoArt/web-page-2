@@ -1,0 +1,44 @@
+.footer {
+	&__screen {
+		height: 20vh;
+		background-color: $color-grey2;
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		grid-template-columns: 2fr 1fr;
+	}
+	&__copyright {
+		grid-column: 1 / 2;
+		font-family: Montserrat;
+		font-size: 16px;
+		line-height: 34px;
+		font-weight: 500;
+		letter-spacing: 0.15em;
+		color: $color-black;
+		text-align: center;
+	}
+	&__icon-bar {
+		grid-column: 2 / 3;
+		font-size: 18px;
+		text-align: center;
+		@include transition-05;
+		
+		ul {
+			display:flex;
+			flex-wrap: wrap;
+
+			li {
+				margin: 0px 10px;
+			}
+		}
+
+		a, a:visited, a:active{
+			color: $color-grey;
+		}
+
+		a:hover, a:hover:visited, a:hover:active{
+			color: $color-black;
+			@include transition-05;
+		}
+	}
+}

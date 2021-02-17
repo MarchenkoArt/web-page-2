@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@100;200;700&display=swap');
+
+
+.wraper {
+	margin: 0 auto;
+}
+
+
+//  Icon font
+@import url("style/icon-font.css");
+
+// Null Style
+@import "style-null.scss";
+
+// Variables
+@import "mix-var/variables.scss";
+
+// Mixins
+@import "mix-var/mixins.scss";
+
+//Style first screen
+@import "first-screen.scss";
+
+//Style second screen
+@import "second-screen.scss";
+
+//Style third screen
+@import "third-screen.scss";
+
+//Style third screen
+@import "fourth-screen.scss";
+
+//Style fifth screen (banner)
+@import "fifth-screen.scss";
+
+//Style six screen
+@import "sixth.scss";
+
+//Style info screen
+@import "info-screen.scss";
+
+//Style footer screen
+@import "footer-screen.scss";
+
+// Media
+@import "media.scss";
